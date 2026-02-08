@@ -77,6 +77,7 @@ backend/
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start server with nodemon (auto-reload) |
+# its important to generat migration file so when we change column type or add new column then we can easyli change that so  db:generate used to generate migration command and db:migrate apply the changes same as git git add . and git push -u origin main or master
 | `npm run db:generate` | Generate migration files from schema |
 | `npm run db:migrate` | Apply migrations to database |
 
